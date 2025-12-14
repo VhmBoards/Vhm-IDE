@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VhmIDE - Home</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 50px; background: #f0f0f0; }
+        header { background: #ff6600; padding: 20px; color: white; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+        section { margin-top: 30px; }
+        a.button { background: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VhmIDE</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="downloads.html">Downloads</a>
+            <a href="led.html">LED Animations</a>
+            <a href="tutorials.html">Tutorials</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Welcome to VhmIDE!</h2>
+        <p>The official IDE for programming your VHM Board.</p>
+        <p><a class="button" href="downloads.html">Download VhmIDE</a></p>
+    </section>
+</body>
+</html>
